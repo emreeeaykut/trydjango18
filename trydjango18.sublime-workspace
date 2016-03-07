@@ -1,0 +1,463 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Si",
+				"SignUpAdmin"
+			],
+			[
+				"TEM",
+				"template"
+			],
+			[
+				"res",
+				"result_array"
+			],
+			[
+				"ma",
+				"margin-right"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"li",
+				"list-style-type"
+			],
+			[
+				"base",
+				"base_url"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"st",
+				"strong	Tag"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"firs",
+				"first_name"
+			],
+			[
+				"m",
+				"main"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"i",
+				"inline"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"vid",
+				"video"
+			],
+			[
+				"Vid",
+				"videos"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"v",
+				"videos"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/trydjango18/urls.py",
+			"settings":
+			{
+				"buffer_size": 813,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/newsletter/models.py",
+			"settings":
+			{
+				"buffer_size": 363,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/newsletter/forms.py",
+			"settings":
+			{
+				"buffer_size": 72,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "from django.contrib import admin\n\n# Register your models here.\nfrom .models import SignUp\n\nclass SignUpAdmin(admin.ModelAdmin):\n	list_display = [\"__unicode__\", \"timestamp\", \"updated\"]\n	class Meta:\n		model = SignUp\n\nadmin.site.register(SignUp, SignUpAdmin)",
+			"file": "src/newsletter/admin.py",
+			"file_size": 255,
+			"file_write_time": 1444898027000000,
+			"settings":
+			{
+				"buffer_size": 255,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 118.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/emreaykut/Desktop/isler/sigma/css/02kasim.css",
+		"/Users/emreaykut/Desktop/isler/sigma/css/style.css",
+		"/Users/emreaykut/Library/Caches/Cleanup At Startup/Transmit/96217079-F1B9-49E9-A5C4-01CD8A881E38/app.php",
+		"/Users/emreaykut/Desktop/trydjango18/src/templates/home.html",
+		"/Users/emreaykut/Desktop/trydjango18/src/trydjango18/settings.py",
+		"/Users/emreaykut/Desktop/trydjango18/src/newsletter/templates/home.html",
+		"/Users/emreaykut/Desktop/trydjango18/src/newsletter/views.py",
+		"/Users/emreaykut/Desktop/trydjango18/src/trydjango18/urls.py",
+		"/Users/emreaykut/Desktop/trydjango18/src/newsletetter/views.py",
+		"/Users/emreaykut/Desktop/trydjango18/src/newsleletter/views.py",
+		"/Users/emreaykut/Desktop/eo/eo.css",
+		"/Users/emreaykut/Desktop/eo/eo1.css",
+		"/Users/emreaykut/PythonProjects/emre/my_proj/src/my_proj/settings/base.py",
+		"/Users/emreaykut/PythonProjects/emre/my_proj/src/templates/about.html",
+		"/Users/emreaykut/PythonProjects/emre/my_proj/src/templates/_brandname.html",
+		"/Users/emreaykut/Library/Caches/Cleanup At Startup/Transmit/FB47621C-28A3-4B23-8503-7ABCB9F74392/upload.php",
+		"/Users/emreaykut/Library/Caches/Cleanup At Startup/Transmit/38EFD4A2-7E52-4489-944C-3D723A48EDF1/responsive.css",
+		"/Users/emreaykut/Library/Caches/Cleanup At Startup/Transmit/1196EC01-E269-48FB-8CAF-B5CD60CB5865/tours.php",
+		"/Users/emreaykut/Library/Caches/Cleanup At Startup/Transmit/9900A64B-30AC-4BE9-A010-CF13F3CDABC6/photo.php",
+		"/Users/emreaykut/Library/Caches/Cleanup At Startup/Transmit/A7969CE9-85F1-486D-BEE1-F39AFAFDBAFB/photo.php",
+		"/Users/emreaykut/Library/Caches/Cleanup At Startup/Transmit/946C1F1F-8F0D-4C71-84F7-60B9DA19BEE3/head.php",
+		"/Users/emreaykut/Library/Caches/Cleanup At Startup/Transmit/FF1C5B6A-EA91-4D00-A59E-BF118F1843D7/style.css",
+		"/Users/emreaykut/Library/Caches/Cleanup At Startup/Transmit/D4E3A8EA-D960-4CF0-876D-DF05F675D49E/form_data.php",
+		"/Users/emreaykut/Library/Caches/Cleanup At Startup/Transmit/C12EDF56-5CB4-4FC0-91AA-C1C67B29886A/app.php",
+		"/Users/emreaykut/Library/Caches/Cleanup At Startup/Transmit/6A816CBD-AF3B-4B6B-96D8-84AD04C39067/facebook.php",
+		"/Users/emreaykut/Library/Caches/Cleanup At Startup/Transmit/47E59223-2EA4-4148-97EC-25A41CEF8D89/welcome.php",
+		"/Users/emreaykut/Library/Caches/Cleanup At Startup/Transmit/568A1BDA-8E6B-43CF-B42E-6B61CD536FDE/videos.php",
+		"/Users/emreaykut/Library/Caches/Cleanup At Startup/Transmit/FCF6CB62-15A5-4388-9455-583F69713796/basin.php",
+		"/Users/emreaykut/Library/Caches/Cleanup At Startup/Transmit/187F6E95-0773-4735-ADCB-69028E50690B/kurumsal.php",
+		"/Users/emreaykut/Library/Caches/Cleanup At Startup/Transmit/784A3405-E7E3-4F25-9011-31E3493748E6/hizmetler.php",
+		"/Users/emreaykut/Library/Caches/Cleanup At Startup/Transmit/6F563001-A053-4197-9004-C70EE255EE68/lang_helper.php",
+		"/Users/emreaykut/Library/Caches/Cleanup At Startup/Transmit/2D92428C-CD30-4E64-A4DA-ADC67131F5DA/oduller.php",
+		"/Users/emreaykut/Library/Caches/Cleanup At Startup/Transmit/7CBDB306-F040-4F6F-98C6-3B189D8F47F6/hizmetler.php",
+		"/Users/emreaykut/Library/Caches/Cleanup At Startup/Transmit/65EC016B-29FD-44A8-900B-98AFB84F71AA/password_manager.php",
+		"/Users/emreaykut/Library/Caches/Cleanup At Startup/Transmit/64C3D97D-746A-4667-965C-D221CB62FA5C/<strong>Custom Integration Method<:strong><br :>",
+		"/Users/emreaykut/Library/Caches/Cleanup At Startup/Transmit/64C3D97D-746A-4667-965C-D221CB62FA5C/lang_helper.php",
+		"/Users/emreaykut/Library/Caches/Cleanup At Startup/Transmit/ECBD3CE1-AE4C-4F13-AA1C-14A676B4A6F3/contact.php",
+		"/Users/emreaykut/Library/Caches/Cleanup At Startup/Transmit/55FEDFC0-CEC6-4DD1-B06B-347BED88DB72/welcome.php",
+		"/Users/emreaykut/Library/Caches/Cleanup At Startup/Transmit/FF27B76B-B5A2-4849-8320-846855395FDB/kurumsal.php",
+		"/Users/emreaykut/Library/Caches/Cleanup At Startup/Transmit/0B63156A-E34C-4747-9CC8-FFA2DFAD02E2/kurumsals.php",
+		"/Users/emreaykut/Library/Caches/Cleanup At Startup/Transmit/A193B896-1D77-44E0-A172-7533F6652BD6/oduller.php",
+		"/Users/emreaykut/Library/Caches/Cleanup At Startup/Transmit/6645227A-FDCC-485D-93E7-E19D7465E824/lang.php",
+		"/Users/emreaykut/Library/Caches/Cleanup At Startup/Transmit/196D468D-66E9-4BBF-9AB1-D25916E496D6/e_arsiv.php",
+		"/Users/emreaykut/Desktop/accenture_mailing/index.html",
+		"/Users/emreaykut/Library/Caches/Cleanup At Startup/Transmit/3A92C3F2-FEEE-43FE-95C3-0E8369643D34/e_fatura.php",
+		"/Users/emreaykut/Library/Caches/Cleanup At Startup/Transmit/4A4F5D41-4FC5-4EDF-A5AD-E2DF02B13816/news.php",
+		"/Users/emreaykut/Library/Caches/Cleanup At Startup/Transmit/97A43BAB-04C6-4927-96F4-733E62045BE7/ana.php",
+		"/Users/emreaykut/Library/Caches/Cleanup At Startup/Transmit/16F88759-D407-4567-A77C-A7077261488E/welcome.php",
+		"/Users/emreaykut/Library/Caches/Cleanup At Startup/Transmit/EE570C29-A325-4250-A635-B5E4A1AF3DF2/header.php",
+		"/Users/emreaykut/Library/Caches/Cleanup At Startup/Transmit/3C7CA2D6-3B8D-4372-ABB5-7B9F3BE3B317/header.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"price per group",
+			"Your Name",
+			"Your Name (required)",
+			"m2",
+			"instagram_popular",
+			"instagram_recent_media",
+			"3px",
+			"2px",
+			"file",
+			"margin",
+			"mrgn",
+			"detail",
+			"a{",
+			"fin",
+			"img1",
+			"sifre_onayla",
+			"data",
+			"9272015df3146fb5080a77e2e75999b5",
+			"token",
+			"onLogin",
+			"90px",
+			"video-url",
+			"video_url",
+			"video",
+			"video.p",
+			"ekle",
+			"Ebultens",
+			"Basins",
+			"-->",
+			"http://detaysoft.com/assets/img/referance/tuketici-urunler/3.png",
+			"brosuru",
+			"$key",
+			"hemen",
+			"'",
+			"basinda_biz",
+			"<tr>",
+			"şube"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Starting from",
+			"m²",
+			"2px",
+			"3px",
+			"Videos",
+			"",
+			" ",
+			"<tr>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/trydjango18/urls.py",
+					"settings":
+					{
+						"buffer_size": 813,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								27,
+								27
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/newsletter/models.py",
+					"settings":
+					{
+						"buffer_size": 363,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								363,
+								363
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/newsletter/forms.py",
+					"settings":
+					{
+						"buffer_size": 72,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								71,
+								71
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/newsletter/admin.py",
+					"settings":
+					{
+						"buffer_size": 255,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								254,
+								254
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 195.0,
+	"status_bar_visible": true
+}
